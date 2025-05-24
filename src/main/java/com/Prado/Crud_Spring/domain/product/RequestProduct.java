@@ -1,5 +1,5 @@
 package com.Prado.Crud_Spring.domain.product;
 
-public record RequestProduct(String name, Double price) {
+public record RequestProduct(int id, String name, Double price) {
 
 }
